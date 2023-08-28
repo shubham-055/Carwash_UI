@@ -1,13 +1,10 @@
 import React from 'react';
-import {
-  View,
-} from 'react-native';
+import {View} from 'react-native';
 import styles from '../Styles/style';
 import Lowercard from './Lowercard';
 import Uppercard from './Uppercard';
 
-
-
+//comment
 const Signup = () => {
   return (
     <View style={styles.signup}>
@@ -16,6 +13,5 @@ const Signup = () => {
     </View>
   );
 };
-
 
 export default Signup;
